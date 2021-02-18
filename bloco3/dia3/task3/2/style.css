@@ -1,0 +1,71 @@
+div {
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;  
+}
+
+h3 {
+    margin: 0px;
+    text-align: center;
+}
+
+div:hover {
+    border: 3px solid black;
+}
+
+body div:nth-child(3) {
+    background-color: red;
+}
+
+body div:nth-child(4) {
+    background-color: yellow;
+}
+
+body div:nth-child(5) {
+    background-color: lime;
+    height: 150px;
+    width: 450px;
+}
+
+body div:nth-child(6) {
+    background-color: darkblue;
+}
+
+body div:nth-child(7) {
+    background-color: lightblue;
+}
+
+body div:nth-child(3) h3 {
+    font-size: 30px;
+    font-family: monospace;
+    color: lightcoral;
+}
+
+body div:nth-child(4) h3 {
+    font-size: 35px;
+    font-family: fantasy;
+    color: darkorange;
+}
+
+body div:nth-child(5) h3 {
+    font-size: 40px;
+    font-family: cursive;
+    color: darkgreen;
+}
+
+body div:nth-child(6) h3 {
+    font-size: 45px;
+    font-family: serif;
+    color: lightblue;
+}
+
+body div:nth-child(7) h3 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+body div:nth-child(odd) h3 {
+    font-style: italic;
+}
