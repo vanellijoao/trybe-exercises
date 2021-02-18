@@ -1,0 +1,18 @@
+h1, p {
+    text-align: center;
+}
+
+ol li:hover {
+    background-color: black;
+    color: white;
+}
+
+ol li:active {
+    font-size:30px;
+    font-family: sans-serif;
+    background-color: thistle;
+}
+
+ol, ul {
+    list-style: none;
+}
