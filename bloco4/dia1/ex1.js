@@ -22,5 +22,3 @@ console.log(div);
 // Módulo
 let mod = a % b;
 console.log(mod);
-
-//-----------------
