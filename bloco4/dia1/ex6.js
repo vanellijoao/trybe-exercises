@@ -1,7 +1,5 @@
 let piece = "kiNg";
-
-let pieceLower = piece.toLowerCase(piece)
-console.log(pieceLower)
+let pieceLower = piece.toLowerCase(piece);
 
 switch (pieceLower) {
     case "bishop":
