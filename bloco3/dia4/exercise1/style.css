@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 100px;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+li {
+    display: inline-block;    
+}
