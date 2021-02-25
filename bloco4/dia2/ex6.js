@@ -9,8 +9,6 @@ for (let i = 0; i < numbers.length; i++) {
     }
 };
 
-console.log(isOdd);
-
 if (isOdd > 0) {
     console.log(isOdd);
 } else {
