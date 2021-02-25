@@ -1,12 +1,7 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let comparison = 1000;
+let numbers = [];
 
-for (let i = 0; i < numbers.length; i++) {
-    if (comparison > numbers[i]) {
-        comparison = numbers[i];
-    } else {
-        comparison = comparison;
-    }
+for (let i = 1; i < 26; i++) {
+    numbers.push(i)
 }
 
-console.log(comparison);
+console.log(numbers);
