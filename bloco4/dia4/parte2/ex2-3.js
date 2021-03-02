@@ -1,10 +1,10 @@
-let numbers = [2, 3, 6, 7, 10, 1];
+let numbers = [2, 3, 6, 7, 10, 0, -3];
 
-function highestNumberIndex (array){
-    let comparison = 0;
+function lowestNumberIndex (array){
+    let comparison = 10000;
     
     for (let i = 0; i < numbers.length; i+= 1) {
-        if (comparison < numbers[i]) {
+        if (comparison > numbers[i]) {
             comparison = numbers[i];
         } else {
             comparison = comparison;
@@ -14,4 +14,4 @@ function highestNumberIndex (array){
     return numbers.indexOf(comparison);
 };
 
-console.log(highestNumberIndex(numbers))
+console.log(lowestNumberIndex(numbers))
