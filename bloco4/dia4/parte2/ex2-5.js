@@ -6,8 +6,8 @@ function mostRepeatedNumber (array) {
     let number = 0;
     let times = [];
 
-    for (i = 0; i < array.length; i += 1) {
-        for (j = 0; j < array.length; j += 1) {
+    for (let i = 0; i < array.length; i += 1) {
+        for (let j = 0; j < array.length; j += 1) {
             if (array[i] == array[j]) {
                 number += 1;
             }
